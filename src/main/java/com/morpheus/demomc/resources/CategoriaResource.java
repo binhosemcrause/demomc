@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.morpheus.demomc.domain.Categoria;
 
-@RestController
+@RestController 
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
 
